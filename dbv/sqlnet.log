@@ -1,0 +1,18 @@
+
+
+***********************************************************************
+Fatal NI connect error 12500, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=v440)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=fi816)(CID=(PROGRAM=C:\oracle\ora92s\bin\sqlplusw.EXE)(HOST=PC-1474)(USER=kalyabinav))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 09-MAR-2010 09:10:28
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0

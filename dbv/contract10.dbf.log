@@ -1,0 +1,34 @@
+
+DBVERIFY: Release 9.2.0.8.0 - Production on Wed Feb 3 17:29:39 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+DBVERIFY - Verification starting : FILE = /mnt/oratest/oradata/docs_020210/contract10.dbf
+Page 501692 is marked corrupt
+***
+Corrupt block relative dba: 0x0487a7bc (file 18, block 501692)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 6 format: 2 rdba: 0x0487a7bc
+ last change scn: 0x012b.1301ba2d seq: 0x1 flg: 0x06
+ consistency value in tail: 0xba2d0601
+ check value in block header: 0xa004, computed block checksum: 0xa6bf
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+***
+
+
+DBVERIFY - Verification complete
+
+Total Pages Examined         : 524288
+Total Pages Processed (Data) : 123914
+Total Pages Failing   (Data) : 0
+Total Pages Processed (Index): 14389
+Total Pages Failing   (Index): 0
+Total Pages Processed (Other): 385928
+Total Pages Processed (Seg)  : 0
+Total Pages Failing   (Seg)  : 0
+Total Pages Empty            : 56
+Total Pages Marked Corrupt   : 1
+Total Pages Influx           : 0
+Highest block SCN            : 1335254040173 (310.3814178413)

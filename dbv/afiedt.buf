@@ -1,0 +1,2 @@
+select password from user$ where name='REGLAMENT_MAPS'
+/

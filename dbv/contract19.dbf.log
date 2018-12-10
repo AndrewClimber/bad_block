@@ -1,0 +1,22 @@
+
+DBVERIFY: Release 9.2.0.8.0 - Production on Wed Feb 3 17:29:39 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+DBVERIFY - Verification starting : FILE = /mnt/oratest/oradata/docs_020210/contract19.dbf
+
+DBVERIFY - Verification complete
+
+Total Pages Examined         : 524288
+Total Pages Processed (Data) : 91172
+Total Pages Failing   (Data) : 0
+Total Pages Processed (Index): 15055
+Total Pages Failing   (Index): 0
+Total Pages Processed (Other): 417800
+Total Pages Processed (Seg)  : 0
+Total Pages Failing   (Seg)  : 0
+Total Pages Empty            : 261
+Total Pages Marked Corrupt   : 0
+Total Pages Influx           : 0
+Highest block SCN            : 1335254040218 (310.3814178458)

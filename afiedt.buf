@@ -1,0 +1,2 @@
+select to_char(sysdate-1,'hh24:mi:ss') from dual
+/

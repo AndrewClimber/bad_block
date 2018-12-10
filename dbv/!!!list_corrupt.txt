@@ -1,0 +1,210 @@
+contract01.dbf.log
+contract10.dbf.log
+contract12.dbf.log
+contract15.dbf.log
+contract16.dbf.log
+contract17.dbf.log
+contract18.dbf.log
+contract22.dbf.log
+contract23.dbf.log
+nrepl09.dbf.log
+
+
+
+DBVERIFY - Verification starting : FILE = /mnt/oratest/oradata/docs_020210/contract01.dbf
+Page 111872 is marked corrupt
+***
+Corrupt block relative dba: 0x0141b500 (file 5, block 111872)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 27 format: 2 rdba: 0x0141b500
+ last change scn: 0x0001.79163ddd seq: 0x2 flg: 0x04
+ consistency value in tail: 0x3ddd1b02
+ check value in block header: 0xb92c, computed block checksum: 0xc9e8
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+
+sys@DOCS> select owner,segment_name,segment_type,tablespace_name 
+  2   from dba_extents where file_id=5 and 111872 between block_id and block_id+blocks-1;
+
+OWNER                          SEGMENT_NAME                                                                      SEGMENT_TYPE       TABLESPACE_NAME
+------------------------------ ---------------------------------------------------------------------
+ERP                            SYS_LOB0000025033C00006$$                                                         LOBSEGMENT         CONTRACT
+
+***
+
+DBVERIFY - Verification starting : FILE = /mnt/oratest/oradata/docs_020210/contract10.dbf
+Corrupt block relative dba: 0x0487a7bc (file 18, block 501692)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 6 format: 2 rdba: 0x0487a7bc
+ last change scn: 0x012b.1301ba2d seq: 0x1 flg: 0x06
+ consistency value in tail: 0xba2d0601
+ check value in block header: 0xa004, computed block checksum: 0xa6bf
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+
+
+sys@DOCS> select owner,segment_name,segment_type,tablespace_name 
+  2   from dba_extents where file_id=18 and 501692 between block_id and block_id+blocks-1;
+
+OWNER                          SEGMENT_NAME                                                                      SEGMENT_TYPE       TABLESPACE_NAME
+------------------------------ ---------------------------------------------------------------------
+ERP                            LETTER_BODY                                                                       TABLE              CONTRACT
+
+DBVERIFY - Verification starting : FILE = /mnt/oratest/oradata/docs_020210/contract12.dbf
+***
+Corrupt block relative dba: 0x05832714 (file 22, block 206612)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 27 format: 2 rdba: 0x05832714
+ last change scn: 0x012b.8e5d0768 seq: 0x2 flg: 0x04
+ consistency value in tail: 0x07681b02
+ check value in block header: 0x6ae0, computed block checksum: 0xb7fe
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+
+
+sys@DOCS> select owner,segment_name,segment_type,tablespace_name 
+  2   from dba_extents where file_id=22 and 206612 between block_id and block_id+blocks-1;
+
+OWNER                          SEGMENT_NAME                                                                      SEGMENT_TYPE       TABLESPACE_NAME
+------------------------------ ---------------------------------------------------------------------
+ERP                            SYS_LOB0000025033C00006$$                                                         LOBSEGMENT         CONTRACT
+
+***
+
+
+DBVERIFY - Verification starting : FILE = /mnt/oratest/oradata/docs_020210/contract15.dbf
+***
+Corrupt block relative dba: 0x06c30022 (file 27, block 196642)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 27 format: 2 rdba: 0x06c30022
+ last change scn: 0x012e.595bcd95 seq: 0x2 flg: 0x04
+ consistency value in tail: 0xcd951b02
+ check value in block header: 0x1b80, computed block checksum: 0xd719
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+
+sys@DOCS> select owner,segment_name,segment_type,tablespace_name 
+  2   from dba_extents where file_id=27 and 196642 between block_id and block_id+blocks-1;
+
+OWNER                          SEGMENT_NAME                                                                      SEGMENT_TYPE       TABLESPACE_NAME
+------------------------------ ---------------------------------------------------------------------
+ERP                            SYS_LOB0000025033C00006$$                                                         LOBSEGMENT         CONTRACT
+
+***
+
+Page 496448 is marked corrupt
+***
+Corrupt block relative dba: 0x06c79340 (file 27, block 496448)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 27 format: 2 rdba: 0x06c79340
+ last change scn: 0x012e.d67d08f7 seq: 0x2 flg: 0x04
+ consistency value in tail: 0x08f71b02
+ check value in block header: 0x19c2, computed block checksum: 0xc917
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+
+sys@DOCS> select owner,segment_name,segment_type,tablespace_name 
+  2   from dba_extents where file_id=27 and 496448 between block_id and block_id+blocks-1;
+
+OWNER                          SEGMENT_NAME                                                                      SEGMENT_TYPE       TABLESPACE_NAME
+------------------------------ ---------------------------------------------------------------------
+ERP                            SYS_LOB0000025033C00006$$                                                         LOBSEGMENT         CONTRACT
+
+***
+
+DBVERIFY - Verification starting : FILE = /mnt/oratest/oradata/docs_020210/contract16.dbf
+***
+Corrupt block relative dba: 0x070506af (file 28, block 329391)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 6 format: 2 rdba: 0x070506af
+ last change scn: 0x012f.ad592f4f seq: 0x1 flg: 0x06
+ consistency value in tail: 0x2f4f0601
+ check value in block header: 0x4fa8, computed block checksum: 0x9458
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+
+sys@DOCS> select owner,segment_name,segment_type,tablespace_name 
+  2   from dba_extents where file_id=28 and 329391 between block_id and block_id+blocks-1;
+
+OWNER                          SEGMENT_NAME                                                                      SEGMENT_TYPE       TABLESPACE_NAME
+------------------------------ ---------------------------------------------------------------------
+ERP                            STAGE_SPLIT_BTYPE                                                                 TABLE              CONTRACT
+
+***
+
+DBVERIFY - Verification starting : FILE = /mnt/oratest/oradata/docs_020210/contract17.dbf
+***
+Corrupt block relative dba: 0x07863510 (file 30, block 406800)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 27 format: 2 rdba: 0x07863510
+ last change scn: 0x0130.7e827447 seq: 0x2 flg: 0x04
+ consistency value in tail: 0x74471b02
+ check value in block header: 0xb4b0, computed block checksum: 0xc917
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+
+sys@DOCS> select owner,segment_name,segment_type,tablespace_name 
+  2   from dba_extents where file_id=30 and 406800 between block_id and block_id+blocks-1;
+
+OWNER                          SEGMENT_NAME                                                                      SEGMENT_TYPE       TABLESPACE_NAME
+------------------------------ ---------------------------------------------------------------------
+ERP                            SYS_LOB0000025033C00006$$                                                         LOBSEGMENT         CONTRACT
+
+***
+
+DBVERIFY - Verification starting : FILE = /mnt/oratest/oradata/docs_020210/contract18.dbf
+***
+Corrupt block relative dba: 0x07c6fab1 (file 31, block 457393)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 27 format: 2 rdba: 0x07c6fab1
+ last change scn: 0x0131.ad9408cc seq: 0x2 flg: 0x04
+ consistency value in tail: 0x08cc1b02
+ check value in block header: 0x358, computed block checksum: 0xda57
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+
+sys@DOCS> select owner,segment_name,segment_type,tablespace_name 
+  2   from dba_extents where file_id=31 and 457393 between block_id and block_id+blocks-1;
+
+OWNER                          SEGMENT_NAME                                                                      SEGMENT_TYPE       TABLESPACE_NAME
+------------------------------ ---------------------------------------------------------------------
+ERP                            SYS_LOB0000025033C00006$$                                                         LOBSEGMENT         CONTRACT
+
+***
+
+DBVERIFY - Verification starting : FILE = /mnt/oratest/oradata/docs_020210/contract22.dbf
+***
+Corrupt block relative dba: 0x0902b876 (file 36, block 178294)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 27 format: 2 rdba: 0x0902b876
+ last change scn: 0x0135.ac33706d seq: 0x2 flg: 0x04
+ consistency value in tail: 0x706d1b02
+ check value in block header: 0xf165, computed block checksum: 0x870f
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+sys@DOCS> select owner,segment_name,segment_type,tablespace_name 
+  2   from dba_extents where file_id=36 and 178294 between block_id and block_id+blocks-1;
+
+OWNER                          SEGMENT_NAME                                                                      SEGMENT_TYPE       TABLESPACE_NAME
+------------------------------ ---------------------------------------------------------------------
+ERP                            SYS_LOB0000025033C00006$$                                                         LOBSEGMENT         CONTRACT
+***
+
+DBVERIFY - Verification starting : FILE = /mnt/oratest/oradata/docs_020210/contract22.dbf
+***
+Corrupt block relative dba: 0x0905c796 (file 36, block 378774)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 27 format: 2 rdba: 0x0905c796
+ last change scn: 0x0135.f8e0c89c seq: 0x2 flg: 0x04
+ consistency value in tail: 0xc89c1b02
+ check value in block header: 0xb59b, computed block checksum: 0x4be2
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+
+sys@DOCS> select owner,segment_name,segment_type,tablespace_name 
+  2   from dba_extents where file_id=36 and 378774 between block_id and block_id+blocks-1;
+
+OWNER                          SEGMENT_NAME                                                                      SEGMENT_TYPE       TABLESPACE_NAME
+------------------------------ ---------------------------------------------------------------------
+ERP                            SYS_LOB0000025033C00006$$                                                         LOBSEGMENT         CONTRACT
+***

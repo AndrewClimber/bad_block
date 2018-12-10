@@ -1,0 +1,18 @@
+http://asktom.oracle.com/pls/asktom/f?p=100:11:0::::P11_QUESTION_ID:354017844316
+
+Example:
+-------
+
+SQL> select t.ts#, s.header_file, s.header_block
+  2  from v$tablespace t, dba_segments s
+  3  where s.segment_name='TAB1'
+  4  and t.name = s.tablespace_name;
+
+       TS# HEADER_FILE HEADER_BLOCK
+---------- ----------- ------------
+         2           5        37767    
+
+
+
+% dbv userid=system/manager SEGMENT_ID=2.5.37767
+

@@ -1,0 +1,46 @@
+
+DBVERIFY: Release 9.2.0.8.0 - Production on Wed Feb 3 17:29:39 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+DBVERIFY - Verification starting : FILE = /mnt/oratest/oradata/docs_020210/contract22.dbf
+Page 178294 is marked corrupt
+***
+Corrupt block relative dba: 0x0902b876 (file 36, block 178294)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 27 format: 2 rdba: 0x0902b876
+ last change scn: 0x0135.ac33706d seq: 0x2 flg: 0x04
+ consistency value in tail: 0x706d1b02
+ check value in block header: 0xf165, computed block checksum: 0x870f
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+***
+
+Page 378774 is marked corrupt
+***
+Corrupt block relative dba: 0x0905c796 (file 36, block 378774)
+Bad check value found during dbv: 
+Data in bad block -
+ type: 27 format: 2 rdba: 0x0905c796
+ last change scn: 0x0135.f8e0c89c seq: 0x2 flg: 0x04
+ consistency value in tail: 0xc89c1b02
+ check value in block header: 0xb59b, computed block checksum: 0x4be2
+ spare1: 0x0, spare2: 0x0, spare3: 0x0
+***
+
+
+DBVERIFY - Verification complete
+
+Total Pages Examined         : 524288
+Total Pages Processed (Data) : 66198
+Total Pages Failing   (Data) : 0
+Total Pages Processed (Index): 9517
+Total Pages Failing   (Index): 0
+Total Pages Processed (Other): 442759
+Total Pages Processed (Seg)  : 0
+Total Pages Failing   (Seg)  : 0
+Total Pages Empty            : 5812
+Total Pages Marked Corrupt   : 2
+Total Pages Influx           : 0
+Highest block SCN            : 1335254040218 (310.3814178458)

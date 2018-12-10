@@ -1,0 +1,10 @@
+http://www.opennet.ru/base/dev/oracle_trace.txt.html
+http://cyzhang1983.itpub.net/post/40572/493326
+http://www.saptechies.com/block-corruptions-2/
+http://oraclejedi.wordpress.com/2010/01/01/one-long-and-nasty-recovery/
+http://sql.ru/forum/actualthread.aspx?bid=3&tid=605676&pg=1
+http://oracle-abc.wikidot.com/how-to-format-corrupted-block-not-part-of-any-segment
+http://www.myoracleguide.com/xl/Handling_Block_Corruptions_in_Oracle.htm#3
+http://uhesse.wordpress.com/2009/09/15/how-do-nologging-operations-affect-recovery/
+!!! полезная инфа и обсуждения со ссылками на дисскусии
+http://sql.ru/forum/actualthread.aspx?tid=727066&pg=-1

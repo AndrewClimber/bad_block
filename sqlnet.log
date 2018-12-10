@@ -1,0 +1,76 @@
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=nipi-exec8)(PORT=1521))(CONNECT_DATA=(SID=DOCS)(CID=(PROGRAM=C:\oracle\ora92s\bin\sqlplusw.EXE)(HOST=PC-1474)(USER=kalyabinav))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 03-FEB-2010 15:41:57
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=nipi-exec8)(PORT=1521))(CONNECT_DATA=(SID=DOCS)(CID=(PROGRAM=C:\oracle\ora92s\bin\sqlplusw.EXE)(HOST=PC-1474)(USER=kalyabinav))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 03-FEB-2010 15:43:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=nipi-exec8)(PORT=1521))(CONNECT_DATA=(SID=DOCS)(CID=(PROGRAM=C:\oracle\ora92s\bin\sqlplusw.EXE)(HOST=PC-1474)(USER=kalyabinav))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 03-FEB-2010 17:46:13
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=nipi-exec8)(PORT=1521))(CONNECT_DATA=(SID=DOCS)(CID=(PROGRAM=C:\oracle\ora92s\bin\sqlplusw.EXE)(HOST=PC-1474)(USER=kalyabinav))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.7.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.7.0 - Production
+  Time: 04-FEB-2010 09:56:53
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
